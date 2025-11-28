@@ -622,5 +622,9 @@ header{
   padding-top: 2rem;
 }
 
-
+.footer-logo-row {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
 
