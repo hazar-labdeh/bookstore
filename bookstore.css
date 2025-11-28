@@ -550,3 +550,25 @@ header{
     font-family: var(--font-secondary);
 }
 
+.read-more {
+    color: var(--color-primary);
+    text-decoration: none;
+    font-weight: bold;
+    font-size: var(--fs-h3);
+    align-self: flex-start;
+}
+
+
+
+
+
+
+.blog-card-container .card-image-wrapper {
+    height: 15rem;
+}
+
+.post-vertical {
+    flex-direction: column;
+}
+
+
