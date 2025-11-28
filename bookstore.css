@@ -281,3 +281,97 @@ header{
   }
 }
 
+/*---------------------------------------------------------------------featured----------------------------------------------------------------------*/
+
+.books-carousel {
+  padding: 3rem 1rem;
+  background: linear-gradient(
+    135deg,
+    rgba(139, 8, 238, 0.06),
+    rgba(255, 175, 14, 0.15)
+  );
+  font-family: var(--font-primary);
+}
+
+.books-header {
+  max-width: 1200px;
+  margin: 0rem auto 2rem;
+
+  h2{
+      font-size: var(--fs-h2);
+  font-family: var(--font-primary);
+  color: var(--color-primary);
+  margin-bottom: 0.25rem;
+  }
+}
+
+
+
+.books-header p {
+  font-size: var(--fs-body);
+  color: var(--color-neutral);
+  font-family: var(--font-secondary);
+}
+
+
+.books-carousel-viewport {
+  position: relative;
+  max-width:100%;
+  margin: 2rem;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+   background: transparent;
+}
+
+
+
+.books-gradient--right {
+  right: 0;
+  background: linear-gradient(
+    to left,
+    rgba(248, 255, 245, 0.95),
+    rgba(245, 255, 250, 0)
+  );
+}
+
+
+.books-track {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+  padding: 1rem;
+
+}
+
+
+.books-carousel-viewport::-webkit-scrollbar {
+  height: 0.5rem;
+}
+.books-carousel-viewport::-webkit-scrollbar-track {
+  background: transparent;
+}
+.books-carousel-viewport::-webkit-scrollbar-thumb {
+  background: rgba(169, 155, 174, 0.6);
+  border-radius: 1rem;
+}
+
+
+.book-card {
+  flex: 0 0 16rem;
+  background: var(--bg);
+  border-radius: 1.25rem;
+  box-shadow: 0 10px 20px var(--color-secondary);
+  overflow: hidden;
+  display: flex;
+ flex-direction: row;
+}
+
+
+.book-card:hover {
+  transform: translateY(-8px) scale(1.03);
+  box-shadow: 0 18px 40px var(--color-neutral-light);
+  background:var(--bg); 
+
+}
+
