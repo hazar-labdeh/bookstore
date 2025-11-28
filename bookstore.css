@@ -753,3 +753,15 @@ header{
   color: var(--color-primary);
   font-weight: bold;
 }
+
+@media (max-width: 768px) {
+  .footer-newsletter {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .footer-newsletter input,
+  .footer-newsletter button {
+    width: 100%;
+  }
+}
