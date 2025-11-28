@@ -628,3 +628,13 @@ header{
   gap: 0.5rem;
 }
 
+.footer-logo {
+  width: 3rem;
+  height: 3rem;
+}
+
+.footer-title {
+  margin: 0;
+  font-size: var(--fs-h3);
+  color: var(--color-neutral);
+}
