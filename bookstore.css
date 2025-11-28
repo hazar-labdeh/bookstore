@@ -699,3 +699,57 @@ header{
 }
 
 
+
+.footer-newsletter {
+  display: flex;
+  gap: 1rem;
+  margin-top: 0.5rem;
+ margin: 1rem;
+}
+
+.footer-newsletter input {
+  flex: 1;
+  padding: 0.4rem 0.8rem;
+  border-radius: 999px;
+  border: 1px solid var(--color-secondary);
+  outline: none;
+  font-family: var(--font-secondary);
+  font-size: var(--fs-small);
+
+}
+
+.footer-newsletter button {
+  border: none;
+  border-radius: 1rem;
+  padding: 0.4rem 1.2rem;
+  background: var(--color-primary);
+  cursor: pointer;
+  font-family: var(--font-primary);
+  font-size: var(--fs-small);
+  color: var(--color-accent);
+}
+
+.footer-bottom {
+  padding: 0.5rem;
+  text-align: center;
+}
+
+.footer-bar {
+  width: 40%;
+  max-width: 260px;
+  height: 3px;
+  background: var(--color-primary);
+  border-radius: 999px;
+  opacity: 0.35;
+  margin: 0 auto 0.5rem;
+}
+
+.footer-credit {
+  font-size: var(--fs-small);
+  color: var(--color-neutral);
+}
+
+.footer-credit span {
+  color: var(--color-primary);
+  font-weight: bold;
+}
