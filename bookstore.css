@@ -601,6 +601,26 @@ header{
 }
 
 
+/*----------------------------------------------footer-----------------------------------------------*/
+
+
+.footer {
+  background:linear-gradient(to right, var(--color-neutral-light),var(--color-accent));
+  box-shadow: 0 -4px 20px var(--color-accent);
+  font-family: var(--font-primary);
+  color: var(--color-neutral);
+  width: 100%;
+}
+
+.footer-inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0.3rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.5rem;
+  padding-top: 2rem;
+}
 
 
 
