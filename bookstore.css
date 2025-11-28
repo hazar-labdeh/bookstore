@@ -525,3 +525,28 @@ header{
     }
 }
 
+.card-content {
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+}
+
+.card-tag {
+    background-color:transparent;
+    color:var(--color-primary);
+    font-size: var(--fs-h3);
+    font-weight: bold;
+    padding: 0.2rem 0.6rem;
+    margin-bottom: 0.5rem;
+    text-transform: uppercase;
+    font-family: var(--font-primary);
+}
+
+.card-text {
+    color:var(-);
+    font-size: 0.95rem;
+    margin-bottom: 1rem;
+    font-family: var(--font-secondary);
+}
+
