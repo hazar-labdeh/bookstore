@@ -650,3 +650,23 @@ header{
   font-size: var(--fs-h3);
   color: var(--color-neutral);
 }
+
+
+.footer-links,
+.footer-info {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-family: var(--font-secondary);
+  color: var(--color-primary);
+}
+
+.footer-links a {
+  text-decoration: none;
+  color: var(--color-neutral);
+  transition: color 0.25s ease;
+}
+
+.footer-links a:hover {
+  color: var(--color-neutral-light);
+}
