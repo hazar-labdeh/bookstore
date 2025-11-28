@@ -638,3 +638,15 @@ header{
   font-size: var(--fs-h3);
   color: var(--color-neutral);
 }
+
+.footer-about .footer-text {
+  margin-top: 0.2rem;
+  line-height: 1.2;
+  color: var(--color-neutral);
+}
+
+.footer-heading {
+  margin-bottom: 0.5rem;
+  font-size: var(--fs-h3);
+  color: var(--color-neutral);
+}
