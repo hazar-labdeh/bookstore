@@ -1,0 +1,76 @@
+:root {
+ /*mood*/
+    --bg: #ffffff;
+  --text: #222222;
+
+  /*colors*/
+  --color-primary:     #554fa4;
+  --color-secondary:		#7f75a9;
+  --color-accent:  	#fbe9c2 ;
+  --color-neutral: 	#a99bae;
+  --color-neutral-light: 	#d2c0b2;
+  
+
+  /*fonts*/
+  --font-primary: "Cambria", "Cochin", "Georgia", "Times", serif;
+  --font-secondary: sans-serif;
+
+  /*font sizes*/
+  --fs-h1: 3rem;
+  --fs-h2: 2.4rem;
+  --fs-h3: 1.2rem;
+  --fs-body: 1rem;
+  --fs-small: 0.875rem;
+
+
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    /*dark theme*/
+    --bg: #0b0f18;
+    --text: #f7f7fb;
+
+    --color-primary:       hsl(274, 100%, 68%);
+    --color-secondary:     #caab84;
+    --color-accent:        #b65403;
+    --color-neutral:       #cdd3df;
+    --color-neutral-light: #303445;
+  }
+
+  header {
+    background: #111427;
+    box-shadow: 0 0 1rem rgba(0,0,0,0.6);
+  }
+
+  .book-card {
+    background: #15182b;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.6);
+  }
+
+  .footer {
+    background: linear-gradient(to right, #15182b, #1e2235);
+  }
+
+  }
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: var(--bg);
+    color: var(--text);
+   }
+
+html {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
