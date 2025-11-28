@@ -375,3 +375,109 @@ header{
 
 }
 
+.book-img-wrap {
+  position: relative;
+  height:20rem;
+  width: 100%;
+  overflow: row;
+
+  img{
+      width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.6s ease;
+  }
+}
+
+
+.book-card:hover .book-img-wrap img {
+  transform: scale(1.08);
+}
+
+.book-tag {
+  position: absolute;
+  left: 0.85rem;
+  top: 0.85rem;
+  padding: 0.2rem 0.75rem;
+  border-radius: 999px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: white;
+  letter-spacing: 0.03em;
+  backdrop-filter: blur(8px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.18);
+  animation: floatTag 3s ease-in-out infinite;
+}
+
+.book-tag--thriller {
+  background: linear-gradient(135deg, #ff4b5c, #ff8a5c);
+}
+.book-tag--horror {
+  background: linear-gradient(135deg, #1c1b29, #6b2148);
+}
+.book-tag--romance {
+  background: linear-gradient(135deg, #ff6fa7, #ffb0c9);
+}
+
+.book-body {
+  padding: 0.85rem 1rem 1.1rem;
+  display: flex;
+  flex-direction:column;
+  gap: 0.2rem;
+  flex-grow: 1;
+}
+
+.book-title {
+  font-size: 1.05rem;
+  color: var(--color-primary);
+  margin: 0;
+}
+
+.book-author {
+  margin: 0;
+  font-size: 0.9rem;
+  color: var(--color-neutral);
+}
+
+.book-meta {
+ margin: auto;
+}
+
+.book-price {
+  font-weight: 700;
+  color: var(--color-primary);
+}
+
+.book-genre {
+  color: var(--color-neutral);
+  font-style: italic;
+}
+
+
+.book-btn {
+  margin-bottom: 0.7rem;
+  border: none;
+  border-radius: 999px;
+  padding: 0.2rem 0.2rem;
+  align-self: flex-start;
+  background: var(--color-accent);
+  color: var(--color-primary);
+  font-family: var(--font-secondary);
+  font-size: var(--fs-small);
+  cursor: pointer;
+  text-transform: uppercase;
+  transition:
+    transform 0.25s ease,
+    box-shadow 0.25s ease,
+    filter 0.25s ease;
+    font-weight: bold;
+}
+
+.book-card:hover .book-btn {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 22px var(--color-neutral);
+  filter: brightness(1.05);
+  color: var(--color-accent);
+  background-color: var(--color-neutral);
+}
