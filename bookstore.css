@@ -303,6 +303,125 @@ header{
    
 
 }
+.home article{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap:.5% ;
+    width: 100%;
+    font-family: var(--font-primary);
+    margin-left: 2rem;
+ 
+ 
+} 
+
+
+.main-color{
+    color : var(--color-primary);
+}
+.home p{
+    margin-top: 1.5rem;
+   font-family: var(--font-secondary);
+}
+.home {
+    .home-img img{
+        flex-basis: 35%;
+        width: 100%; 
+    }
+     
+   
+}
+.thing {
+    margin-top: 1.875rem;
+  display: flex;
+ justify-content: space-around;
+  flex-direction: row;
+ gap: 0.0625rem;
+  flex-wrap: wrap;
+  padding: 0.625rem;
+
+}
+
+.box {
+  flex: 1 1 760px;
+  max-width: 260px;
+  box-shadow: 0 0 30px var(--color-neutral);
+  border: 2px solid rgba(169, 155, 174, 0.1);
+   padding: 0.3rem;
+  margin: 2rem;
+
+  text-align: center;       
+}
+
+.box i {
+  display: inline-block;  
+  margin-bottom: 1rem;     
+  font-size: 2.5rem;
+  color: var(--color-primary);
+}
+
+
+.box h3 {
+  margin: 0.625rem 0 0.3125rem;
+  font-size: var(--fs-h3);
+  font-family: var(--font-primary);
+  font-weight: bold;
+  color: var(--color-primary);
+  text-align: center;
+}
+
+.box p {
+  font-family: var(--font-secondary);
+  text-align: center;
+  color: var(--color-secondary);
+}
+@media (max-width: 780px) {
+ 
+  .home {
+    max-width: 100%;
+    padding-inline: 1rem;   
+  }
+
+  .home .row {
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+
+  .home article {
+    width: 100%;
+    margin-left: 0;        
+    align-items: center;   
+  }
+
+  .home .home-img {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .home .home-img img {
+    width: 80%;
+    max-width: 320px;
+  }
+
+
+  .thing {
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: 1fr;
+  }
+
+  .box {
+    max-width: 100%;
+    margin: 1rem auto;   
+  }
+}
+
+
+
+/*-------------------------------------------------------------------about-----------------------------------------------------------*/
 
 /*---------------------------------------------------------------------featured----------------------------------------------------------------------*/
 
@@ -327,6 +446,7 @@ header{
   margin-bottom: 0.25rem;
   }
 }
+
 
 
 
