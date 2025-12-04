@@ -424,6 +424,30 @@ header{
 
 
 /*-------------------------------------------------------------------about-----------------------------------------------------------*/
+.main-btn{
+   
+    margin: 1.9rem;
+    background-color:var(--color-accent) ;
+    color: var(--color-primary);
+    border: none;
+    padding: 1rem;
+    border-radius: 0.25rem;
+    outline: none;
+    cursor:pointer;
+    width: fit-content;
+    font-family: var(--font-primary);
+    font-weight: bold;
+
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+
+   
+}
 
 /*---------------------------------------------------------------------featured----------------------------------------------------------------------*/
 
