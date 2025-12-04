@@ -843,6 +843,23 @@ header{
     box-shadow:  0px 0px 40px var(--color-neutral-light);
 }
 @media (max-width: 768px) {
+    .arrival-row {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .arrival-1 {
+        width: 100%;
+        max-width: 90%;
+    }
+     .reviewer-row {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+}
+@media (max-width: 768px) {
 
 
   .reviewer-row {
