@@ -423,31 +423,7 @@ header{
 
 
 
-/*-------------------------------------------------------------------about-----------------------------------------------------------*/
-.main-btn{
-   
-    margin: 1.9rem;
-    background-color:var(--color-accent) ;
-    color: var(--color-primary);
-    border: none;
-    padding: 1rem;
-    border-radius: 0.25rem;
-    outline: none;
-    cursor:pointer;
-    width: fit-content;
-    font-family: var(--font-primary);
-    font-weight: bold;
 
-}
-.row{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    gap: 1rem;
-
-   
-}
 
 /*---------------------------------------------------------------------featured----------------------------------------------------------------------*/
 
@@ -731,6 +707,25 @@ header{
     margin: auto;
     font-size: 16px;
 }    
+@media (max-width: 768px) {
+   .arrival-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    width: 100%;
+}
+
+
+    .arrival-1 {
+        width: 100%;
+    }
+
+    .arrival-img img {
+        object-fit: cover;
+    }
+}
+
     
 /*----------------------------------------------------------------blog-----------------------------------------------------------------------------------------------*/
 .blog-container {
