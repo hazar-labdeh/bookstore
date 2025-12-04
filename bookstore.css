@@ -768,6 +768,7 @@ header{
     object-fit: cover;
   }
 }
+/*----------------------------------------------About-----------------------------------------------*/
 
 .main-btn{
    
@@ -845,6 +846,32 @@ header{
     color: var(--bg);
     font-family: var(--font-primary);
     font-weight: bold;
+}
+@media (max-width :780px) {
+    .about {
+        .about-img{width: 100%;
+    justify-content: center;
+        display: flex;}
+      }
+    .about  {
+       .artical {
+           width: 100%;
+        }
+        
+    }
+    .about {
+        .row{  
+              flex-direction: column;
+              text-align: center;
+}
+
+    }
+    .about {
+        .home-img img{width: 70%;}
+        
+        
+    }
+    
 }
 
 
