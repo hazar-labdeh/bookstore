@@ -648,6 +648,8 @@ header{
    
 }
     }
+    
+
 .arrival-row {
     display: flex;
     flex-direction: row;
@@ -707,7 +709,8 @@ header{
 .arrival-1 i {
     margin: auto;
     font-size: 16px;
-}    
+}
+
 @media (max-width: 768px) {
    .arrival-row {
     display: flex;
