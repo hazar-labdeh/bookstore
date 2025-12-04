@@ -650,7 +650,28 @@ header{
   color: var(--color-accent);
   background-color: var(--color-neutral);
 }
+/*-----------------------------------------------------------------new arrival--------------------------------------------------------------------------------------*/
 
+.arrival {
+   padding: 3.75rem 0;
+
+}
+.arrival h2{
+    margin: 1.9rem;
+    font-size: var(--fs-h2);
+ color: var(--color-primary);
+ font-family: var(--font-primary);
+ font-weight: bold;
+}
+
+.arrival  {
+    .container{
+        width: 90%;
+    margin: auto;
+   
+}
+    }
+    
 /*----------------------------------------------------------------blog-----------------------------------------------------------------------------------------------*/
 .blog-container {
    
