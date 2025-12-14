@@ -1,2 +1,2 @@
 # bookstore
-a repo for web course task
+A web contain HTML and CSS of bookstore for front end training task
